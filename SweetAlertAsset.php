@@ -1,13 +1,13 @@
 <?php
 
-namespace kamran377\sweetalert2;
+namespace danvick\sweetalert2;
 
 use yii\web\AssetBundle;
 
 /**
  * Class AlertAsset
  *
- * @package kamran377\sweetalert2
+ * @package danvick\sweetalert2
  */
 class SweetAlertAsset extends AssetBundle
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace kamran377\sweetalert2;
+namespace danvick\sweetalert2;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -11,7 +11,7 @@ use yii\helpers\Json;
 /**
  * Alert widget renders a message from session flash or custom messages.
  *
- * @package kamran377\sweetalert2
+ * @package danvick\sweetalert2
  */
 class SweetAlert extends Widget
 {

@@ -1,5 +1,5 @@
 {
-    "name": "kamran377/yii2-sweetalert2",
+    "name": "danvick/yii2-sweetalert2",
     "description": "Alert widget based on SweetAlert2 extension {@link https://sweetalert2.github.io/)",
     "type": "yii2-extension",
 	"minimum-stability": "dev",
@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Kamran Ali",
-            "email": "kamran_ali@hotmail.com"
+            "name": "Danvick Miller",
+            "email": "danviickmiller@gmail.com"
         }
     ],
     "require": {
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kamran377\\sweetalert2\\": ""
+            "danvick\\sweetalert2\\": ""
         }
     },
     "repositories": [

@@ -19,13 +19,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist kamran377/yii2-sweetalert2 "*"
+php composer.phar require --prefer-dist danvick/yii2-sweetalert2 "*"
 ```
 
 or add
 
 ```
-"kamran377/yii2-sweetalert2": "*"
+"danvick/yii2-sweetalert2": "*"
 ```
 
 to the require section of your composer.json.
@@ -43,15 +43,15 @@ Yii::$app->session->setFlash('success', 'This is the message');
 
 2) Simply add widget to your page as follows:
 ```php
-echo kamran377\sweetalert2\SweetAlert::widget();
+echo danvick\sweetalert2\SweetAlert::widget();
 ```
 
 **For render the custom message you can use the following code:**
 ```php
 // A replacement for the "prompt" function
 
-echo \kamran377\yii2-sweetalert2\SweetAlert::widget([
-        'type' => \kamran377\yii2-sweetalert2\SweetAlert::TYPE_WARNING,
+echo \danvick\yii2-sweetalert2\SweetAlert::widget([
+        'type' => \danvick\yii2-sweetalert2\SweetAlert::TYPE_WARNING,
         'options' => [
             'title' => 'Oops...',
             'text' => 'Something went wrong!',
@@ -66,7 +66,7 @@ The native javascript confirm dialog is overridden by default, to disable this o
 ```php
 'assetManager' => [
     'bundles' => [
-        'kamran377\yii2-sweetalert2\SweetAlertAsset' => [
+        'danvick\yii2-sweetalert2\SweetAlertAsset' => [
             'overrideConfirm' => false
         ]
     ]
